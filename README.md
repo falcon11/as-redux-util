@@ -2,6 +2,11 @@
 
 Redux util to help simplify redux usage. Inspired by [dva](https://dvajs.com/).
 
+## install
+```sh
+yarn add as-redux-util
+```
+
 ## usage
 
 [**calc.js**](./example/src/reducers/calc.js)
