@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/falcon11/as-redux-util.git"
+  },
   "keywords": [
     "redux",
     "dva-like"
