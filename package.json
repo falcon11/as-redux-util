@@ -1,0 +1,15 @@
+{
+  "name": "as-redux-util",
+  "version": "1.0.0",
+  "description": "redux util to help simplify redux using",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "redux",
+    "dva-like"
+  ],
+  "author": "ashoka",
+  "license": "MIT"
+}
