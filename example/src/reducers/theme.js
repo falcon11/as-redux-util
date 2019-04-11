@@ -4,15 +4,15 @@ export const LIGHT_STYLES = {
   backgroundColor: '#f7f7f7',
   textColor: '#333',
   buttonBgColor: 'black',
-  buttonTextColor: 'white'
-}
+  buttonTextColor: 'white',
+};
 
 export const DARK_STYLES = {
   backgroundColor: '#282c34',
   textColor: 'white',
   buttonBgColor: 'white',
-  buttonTextColor: 'black'
-}
+  buttonTextColor: 'black',
+};
 
 export const THEMES = {
   light: LIGHT_STYLES,
@@ -39,4 +39,4 @@ export const themeActions = {
   },
 };
 
-export default ReduxUtil.generateReducer(themeManager);
+export default themeManager;

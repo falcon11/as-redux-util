@@ -22,4 +22,4 @@ export const calcActions = {
   },
 };
 
-export default ReduxUtil.generateReducer(calcManager);
+export default calcManager;

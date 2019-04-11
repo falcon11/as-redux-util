@@ -1,6 +1,6 @@
 {
   "name": "as-redux-util",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "redux util to help simplify redux using",
   "main": "index.js",
   "scripts": {

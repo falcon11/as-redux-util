@@ -1,7 +1,7 @@
 export const createAction = type => payload => ({ type, payload });
-export const wrapCreateAction = (mgt) => {
+export const wrapCreateAction = mgt => {
   const { namespace } = mgt;
-  return (type) => {
+  return type => {
     const prefixType = `${namespace}/${type}`;
     return payload => createAction(prefixType)(payload);
   };
@@ -19,4 +19,12 @@ export const generateReducer = (mgt = {}) => {
     return originalState;
   };
   return reducer;
+};
+export const generateReducers = (managers = []) => {
+  const reducers = {};
+  managers.forEach(manage => {
+    const { namespace } = manage;
+    reducers[namespace] = generateReducer(manage);
+  });
+  return reducers;
 };
