@@ -5,7 +5,6 @@ import './App.css';
 import { calcActions } from './reducers/calc';
 import { themeActions, THEMES } from './reducers/theme';
 
-// function button({backgroundColor, })
 
 class App extends Component {
   render() {
